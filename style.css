@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  html{
+    font-size: 62.5%;
+    letter-spacing: 1px;
+  }
+
+  /* Navigations */
+
+  .navigation{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .logo{
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+
+  .nav{
+    position: relative;
+    display: flex;
+    
+  }
+
+  .nav-item{
+    list-style: none;
+    margin: 0 1rem;
+    position: relative;
+  }
+
+  .nav-link{
+    position: relative;
+    padding: 0.5rem 1rem;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  .active,
+  .nav-link:hover{
+    color: black;
+    background: antiquewhite;
+    border-radius: 1rem;
+    font-size: 2rem;
+  }
+
+
+  section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+  }
+  
+  
+
+     
+
+
+  nav
+  .statement {
+    color: black
+
+  }
+
+  /* Header */
+
+  .intro{
+    font-size: 3rem;
+  }
+
+  .intro-img{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+ .intro-header{
+  margin-top: 2rem;
+  text-align: center;
+ }
+
+/* slide */
+
+/* #gallery{
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.slide-img{
+  text-align: center;
+  margin: 0px center opx center;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+
+ /* Scroll */
+
+ section#statement {
+  background-color:antiquewhite;
+  background: url('../Images/Teens4Teens.jpeg') no-repeat center/cover;
+
+}
+
+
+  section#Projectsact{
+    background-color:aqua;
+  
+}
+
+  section#AboutUs{
+    background-color: blue;
+  }
+
+
+
+  section#FutureAct{
+    background-color:aquamarine;
+
+  }
+
+
+  section#OTeam{
+    background-color:cadetblue;
+  }
+
+  section#OContact{
+    background-color: chartreuse;
+  }
