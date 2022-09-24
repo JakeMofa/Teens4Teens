@@ -1,105 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Architects+Daughter&family=Sora:wght@100;200;300;400&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+:root {
+  --header-height: 80px;
+  --dark_blue: #023047;
+  /* --mid-blue: #8ECAE6; */
+  --mid-blue: #6ABDCD;
+  --yellow: #FFB703;
+  --off-white: #F5F5F5;
+  --grey: #999999;
+  --dark-grey: #525252;
+  --light-blue: #c4f1fa;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-  html{
-    font-size: 62.5%;
-    letter-spacing: 1px;
-  }
+html {
+  font-size: 62.5%;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+}
 
-  /* Navigations */
+body {
+  font-size: 1.25rem;
+  font-family: 'Sora', sans-serif;
+  background-color: var(--off-white);
+}
 
-  .navigation{
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3rem;
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: var(--dark_blue);
+  backdrop-filter: blur(10px);
+}
+
+.nav {
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-family: 'Arbutus Slab', serif;
+  color: var(--mid-blue);
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .nav_menu {
     position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
-
-  .logo{
-    color: black;
-    font-size: 3rem;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-weight: 700;
-  }
-
-  .nav{
-    position: relative;
-    display: flex;
-    
-  }
-
-  .nav-item{
-    list-style: none;
-    margin: 0 1rem;
-    position: relative;
-  }
-
-  .nav-link{
-    position: relative;
-    padding: 0.5rem 1rem;
-    color: black;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 2rem;
-  }
-
-  .active,
-  .nav-link:hover{
-    color: black;
-    background: antiquewhite;
-    border-radius: 1rem;
-    font-size: 2rem;
-  }
-
-
-  section {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    top: 0;
+    right: -100%;
+    width: 70%;
     height: 100vh;
-
+    padding: 3.5rem 1.5rem 0;
+    background: #023047c9;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
   }
-  
-  
+}
 
-     
+.nav_close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.3rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: block;
+}
+
+.menu_item {
+  margin-bottom: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+
+}
 
 
-  nav
-  .statement {
-    color: black
+.nav_close,
+.item_link,
+.side_navbar {
+  color: var(--off-white);
+}
 
+.item_link:hover,
+.side_navbar:hover,
+.nav_close:hover {
+  color: var(--light-blue);
+}
+
+.side_navbar {
+  position: absolute;
+  right: 1.3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: var(--header-height);
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+
+  .side_navbar,
+  .nav_close {
+    display: none;
   }
 
-  /* Header */
-
-  .intro{
-    font-size: 3rem;
-  }
-
-  .intro-img{
-    width: 100%;
-    height: 20%;
+  .menu_list {
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
   }
 
- .intro-header{
+  .menu_item {
+    margin-right: 3rem;
+  }
+}
+
+
+/* Used in js file */
+.show {
+  right: 0;
+}
+
+main {
+  margin-top: var(--header-height);
+}
+
+
+
+
+
+
+
+/* Header */
+
+.intro {
+  font-size: 3rem;
+}
+
+.intro-img {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-header {
   margin-top: 2rem;
   text-align: center;
- }
+}
 
 /* slide */
 
@@ -116,36 +190,36 @@
   margin-bottom: 50px;
 } */
 
- /* Scroll */
+/* Scroll */
 
- section#statement {
-  background-color:antiquewhite;
+section#statement {
+  background-color: antiquewhite;
   background: url('../Images/Teens4Teens.jpeg') no-repeat center/cover;
 
 }
 
 
-  section#Projectsact{
-    background-color:aqua;
-  
+section#Projectsact {
+  background-color: aqua;
+
 }
 
-  section#AboutUs{
-    background-color: blue;
-  }
+section#AboutUs {
+  background-color: blue;
+}
 
 
 
-  section#FutureAct{
-    background-color:aquamarine;
+section#FutureAct {
+  background-color: aquamarine;
 
-  }
+}
 
 
-  section#OTeam{
-    background-color:cadetblue;
-  }
+section#OTeam {
+  background-color: cadetblue;
+}
 
-  section#OContact{
-    background-color: chartreuse;
-  }
+section#OContact {
+  background-color: chartreuse;
+}
