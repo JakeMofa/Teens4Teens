@@ -192,6 +192,87 @@ main {
 
 /* Scroll */
 
+/* msission statement style  */
+
+.Mission {
+  margin-top: 40px;
+  padding: 30px;
+  height: 85vh;
+  display: flex;
+  background-color: var(--dark_blue);
+}
+
+.mission-phrase {
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--dark_blue);
+  box-shadow: 0 0 15px var(--grey);
+  border-bottom: 9px solid var(--mid-blue);
+  color: var(--off-white);
+  font-size: 2.6rem;
+  padding: 40px 0;
+}
+
+.mission-line {
+  text-align: center;
+  background-color: var(--dark_blue);
+  box-shadow: 0 0 15px var(--grey);
+  border-bottom: 9px solid var(--mid-blue);
+  color: var(--off-white);
+  font-size: 2.6rem;
+  padding: 40px 0;
+}
+
+/* Projects section */
+
+.Projects {
+  padding: 150px 50px 100px;
+}
+
+.project-div {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-2%);
+  /* margin: 30px;
+  padding: 10px; */
+}
+
+.projects_head {
+  font-weight: normal;
+  padding: 0;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section#statement {
   background-color: antiquewhite;
   background: url('../Images/Teens4Teens.jpeg') no-repeat center/cover;
