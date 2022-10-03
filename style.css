@@ -226,29 +226,7 @@ main {
 
 /* Projects section */
 
-.Projects {
-  padding: 150px 50px 100px;
-}
 
-.project-div {
-  position: relative;
-  top: 50%;
-  left: 25%;
-  transform: translateY(-2%);
-  /* margin: 30px;
-  padding: 10px; */
-}
-
-.projects_head {
-  font-weight: normal;
-  padding: 0;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-}
-
-.project-content{
-  
-}
 
 
 
