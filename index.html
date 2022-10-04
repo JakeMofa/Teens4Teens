@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Teen4Teens</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-</head>
+    <head>
+
+    </head>
 
 <body>
     <!-- Nav Bar -->
@@ -69,70 +72,496 @@
     </section>
 
 
+    <section id="mission-statement" class="about" data-aos="zoom-out-left">
 
-    <section id="Missionstate" class="Mission">
-        <div class="mission-line">
-            <p> This is ourvalue and what we have to protest
+        <h1 class="heading">Mission Statement</h1>
+        <div class="row">
+
+            <div class="content" data-aos="fade-up">
+                <h3>This is ourvalue and what we have to protest</h3>
+                <p>Understanding Values and the interpretation of life
+                    Goals and aquirings
+                    Accomplishing and helping <br>
+                    So we hope you are inspired by out work.
+                </p>
+
+                <!-- <a href="#"><button class="btn">Read....</button></a> -->
+            </div>
+
+            <div class="image">
+                <!-- <img src="Images\Gold.jpeg" alt="" style="opacity: 0.2; height: 10vw;"> -->
+                <div class=" " style="max-width:100%; height: 100vh; display:flex">
+
+
+                    <img class="mySlides w3-animate-fading" src="/Images/Teens4Teens.jpeg" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="/Images/Info.jpeg" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="/Images/Tean.jpeg" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="/Images/Gold.jpeg" style="width:100%">
+                </div>
+                <img src="Images\Gold.jpeg" alt="" style="opacity: 0.1; height: 10vw;">
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) { myIndex = 1 }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 9000);
+                    }
+                </script>
+            </div>
         </div>
-        <div class="mission-phrase">
-            <p> Understanding Values and the interpretation of life
-                Goals and aquirings
-                Accomplishing and helping
-            </p>
-            <br>
-            <p>
-                So we hope you are inspired by out work.
-            </p>
+
+
+
+
+
+    </section>
+
+    <section id="projects" class="service" data-aos="fade-down">
+        <h1 class="heading">Our Projects</h1>
+        <div class="row">
+            <div class="image">
+                <img src="Images\Info.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Machine Learning</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
         </div>
 
-        <!-- <h3 class="statement">Mission statement</h3>
-        <p> this is our value and what we give to protest</p>
+        <div class="row" data-aos="fade-up">
 
-        <pre>
-            Understanding Values and the interpretation of life
-            Goals and aquirings
-            Accomplishing and helping
-        </pre> -->
-    </section>
-
-
-    <section id="Projectsec" class="Projects">
-        <div class="project-div">
-            <h1 class="projects_head"> Our Projects</h1>
-            <span class="project-content">
-                Some text about the project.
-            </span>
-            <img src="Images\Tean.jpeg" alt="">
+            <div class="content">
+                <h3>Arcesium Warzone</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
         </div>
 
+
+        <div class="row" data-aos="fade-up">
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Happy Life</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+
+        </div>
+
+
+        <div class="row" data-aos="fade-up">
+
+
+            <div class="content">
+                <h3>Technical Support</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up">
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
+
+
+            <div class="content">
+                <h3>Support Us</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+
+
+
+        </div>
+
+
+        <div class="row" data-aos="fade-up">
+
+
+
+            <div class="content">
+                <h3>The End-Game</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
+
+
+
+        </div>
+
+
+
     </section>
 
-    <section id="AboutUs" class="About">
-        <h3 class="Aboutusid"> This is what we are about</h3>
-        <P> talks about us</P>
+    <section id="About-us" class="about" data-aos="fade-left">
+
+        <h1 class="heading">About us</h1>
+        <div class="row">
+
+            <div class="content" data-aos="fade-up">
+                <h3>This is ourvalue and what we have to protest</h3>
+                <p>Understanding Values and the interpretation of life
+                    Goals and aquirings
+                    Accomplishing and helping <br>
+                    So we hope you are inspired by out work.
+                </p>
+
+                <!-- <a href="#"><button class="btn">Read....</button></a> -->
+            </div>
+
+            <div class="image">
+                <img src="Images\Gold.jpeg" alt="">
+            </div>
+        </div>
+
+
+
 
 
     </section>
 
 
-    <section id="FutureAct" class="Future">
-        <h3 class="Futureid"> This is our future</h3>
+    <section id="future-activities" class="service" data-aos="flip-left">
+        <h1 class="heading">This is our future</h1>
+        <div class="row">
+            <div class="image">
+                <img src="Images\Info.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Machine Learning</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse
+                    deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+            <div class="content">
+                <h3>Arcesium Warzone</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
+                    eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse
+                    deserunt
+                    dolor. Excepturi, sunt fugit!</p>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+            </div>
+            <div class="image">
+                <img src="Images\Teens4Teens.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="contact" data-aos="fade-right">
+
+        <h1 class="heading">Get in touch</h1>
+        <div class="row" data-aos="fade-up">
+            <div class="image"><img src="Images\Info.jpeg" alt=""></div>
+
+            <!-- </div> -->
+
+            <div class="form-container">
+                <form action="">
+
+                    <div class="inputBox">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+
+                    </div>
+                    <input type="email" placeholder="email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </div>
+
 
     </section>
 
-    <section id="OTeam" class=" Team">
-        <h3 class="Teamid"> This is our Team</h3>
-        <p>Welcome to our team</p>
+    <section class="team" id="team" data-aos="fade-left">
 
+        <h1 class="heading">Fresh</h1>
+
+
+        <div class="row">
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Cloud hosting-pana.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Freshee</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Web devices-cuate.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Fresher!</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Mobile apps-cuate.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Fresh zz</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Cloud hosting-pana.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Freshee</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Web devices-cuate.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Fresher!</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+                <div class="image">
+                    <img src="./svgs/Mobile apps-cuate.svg" alt="">
+                </div>
+
+                <div class="info">
+                    <h3>Fresh zz</h3>
+                    <span>Web Desing</span>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+                    <div class="icons">
+                        <a href="" class="fab fa-facebook"></a>
+                        <a href="" class="fab fa-instagram"></a>
+
+                        <a href="" class="fab fa-linkedin"></a>
+
+                        <a href="" class="fab fa-twitter"></a>
+
+                        <a href="" class="fab fa-reddit"></a>
+
+                        <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                        <a href="" class="fab fa-tiktok"></a>
+                        <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
 
 
-    <section id="OContact" class="Contact">
-        <h3 class='Contactid'> How to contact us</h3>
+    <section class="footer">
+        <h1>Teen4Teens</h1>
 
-        </script>
+        <div class="icons">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+
+
+        </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800
+        }
+        );
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="app.js"></script>
 </body>
 

@@ -12,6 +12,6 @@ navClose.addEventListener('click', () => {
     navMenu.classList.remove('show')
 })
 
-function func() {
-    window.alert("Your message has been sent successfully.");
-}
+// function func() {
+//     window.alert("Your message has been sent successfully.");
+// }
