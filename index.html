@@ -9,7 +9,8 @@
 
     <title>Teen4Teens</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <head>
 
@@ -113,7 +114,7 @@
                         myIndex++;
                         if (myIndex > x.length) { myIndex = 1 }
                         x[myIndex - 1].style.display = "block";
-                        setTimeout(carousel, 9000);
+                        setTimeout(carousel, 8000);
                     }
                 </script>
             </div>
@@ -132,7 +133,7 @@
                 <img src="Images\Info.jpeg" alt="">
             </div>
             <div class="content">
-                <h3>Machine Learning</h3>
+                <h3>Visiting Orphanage</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
                     dolor. Excepturi, sunt fugit!</p>
@@ -143,7 +144,7 @@
         <div class="row" data-aos="fade-up">
 
             <div class="content">
-                <h3>Arcesium Warzone</h3>
+                <h3>St Patrick Orphanage Buea</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
                     dolor. Excepturi, sunt fugit!</p>
@@ -161,7 +162,7 @@
             </div>
 
             <div class="content">
-                <h3>Happy Life</h3>
+                <h3>Serve the community</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
                     dolor. Excepturi, sunt fugit!</p>
@@ -175,7 +176,7 @@
 
 
             <div class="content">
-                <h3>Technical Support</h3>
+                <h3>Provide some aids to homeless</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
                     dolor. Excepturi, sunt fugit!</p>
@@ -199,7 +200,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse deserunt
                     dolor. Excepturi, sunt fugit!</p>
-                <!-- <a href="#"><button class="btn">Read More</button></a> -->
+                <a href="#"><button class="btn">Support us?</button></a>
             </div>
 
 
@@ -247,7 +248,36 @@
             </div>
 
             <div class="image">
-                <img src="Images\Gold.jpeg" alt="">
+                <!-- <img src="Images\Gold.jpeg" alt=""> -->
+                <div class="image">
+                    <!-- <img src="Images\Gold.jpeg" alt="" style="opacity: 0.2; height: 10vw;"> -->
+                    <div class=" " style="max-width:100%; height: 100vh; display:flex">
+
+
+                        <img class="mySlides w3-animate-fading" src="/Images/Teens4Teens.jpeg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="/Images/Info.jpeg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="/Images/Tean.jpeg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="/Images/Gold.jpeg" style="width:100%">
+                    </div>
+                    <img src="Images\Gold.jpeg" alt="" style="opacity: 0.1; height: 10vw;">
+
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) { myIndex = 1 }
+                            x[myIndex - 1].style.display = "block";
+                            setTimeout(carousel, 6000);
+                        }
+                    </script>
+                </div>
             </div>
         </div>
 
@@ -265,19 +295,19 @@
                 <img src="Images\Info.jpeg" alt="">
             </div>
             <div class="content">
-                <h3>Machine Learning</h3>
+                <h3>providing aid to the needy</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse
                     deserunt
                     dolor. Excepturi, sunt fugit!</p>
-                <a href="#"><button class="btn">Read More</button></a>
+                <!-- <a href="#"><button class="btn">Read More</button></a> -->
             </div>
         </div>
 
         <div class="row" data-aos="fade-up">
 
             <div class="content">
-                <h3>Arcesium Warzone</h3>
+                <h3>Shed for IDP's</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quia autem consequuntur et
                     eveniet odio veniam non molestias, distinctio amet corporis libero maiores recusandae esse
                     deserunt
@@ -318,7 +348,7 @@
 
     <section class="team" id="team" data-aos="fade-left">
 
-        <h1 class="heading">Fresh</h1>
+        <h1 class="heading">Our Team</h1>
 
 
         <div class="row">
@@ -328,8 +358,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Freshee</h3>
-                    <span>Web Desing</span>
+                    <h3>Head1</h3>
+                    <span>Leader</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -337,14 +367,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -357,8 +379,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Fresher!</h3>
-                    <span>Web Desing</span>
+                    <h3>Head2</h3>
+                    <span>Leader2</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -367,12 +389,6 @@
 
                         <a href="" class="fab fa-twitter"></a>
 
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
 
 
 
@@ -386,8 +402,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Fresh zz</h3>
-                    <span>Web Desing</span>
+                    <h3>Head3</h3>
+                    <span>Leader3</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -395,14 +411,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -413,14 +421,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -436,8 +436,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Freshee</h3>
-                    <span>Web Desing</span>
+                    <h3>head4</h3>
+                    <span>leader4</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -445,15 +445,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
-
 
                     </div>
                 </div>
@@ -465,8 +456,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Fresher!</h3>
-                    <span>Web Desing</span>
+                    <h3>head5</h3>
+                    <span>leader5</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -474,14 +465,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -494,8 +477,8 @@
                 </div>
 
                 <div class="info">
-                    <h3>Fresh zz</h3>
-                    <span>Web Desing</span>
+                    <h3>head6</h3>
+                    <span>Leader6</span>
                     <div class="icons">
                         <a href="" class="fab fa-facebook"></a>
                         <a href="" class="fab fa-instagram"></a>
@@ -503,14 +486,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -521,14 +496,6 @@
                         <a href="" class="fab fa-linkedin"></a>
 
                         <a href="" class="fab fa-twitter"></a>
-
-                        <a href="" class="fab fa-reddit"></a>
-
-                        <!-- <a href="" class="fab fa-snapchat"></a> -->
-
-                        <a href="" class="fab fa-tiktok"></a>
-                        <!-- <a href="" class="fab fa-spotify"></a> -->
-
 
 
                     </div>
@@ -547,7 +514,7 @@
         <div class="icons">
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-github"></a>
+
 
 
         </div>
